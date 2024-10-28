@@ -1,0 +1,22 @@
+# Create a new local project
+npx create-next-app@latest portfolio
+cd portfolio
+
+# Initialize git repository
+git init
+git add .
+git commit -m "Initial commit"
+
+# Create new repository on GitHub:
+# 1. Go to github.com
+# 2. Click the "+" in the top right
+# 3. Choose "New repository"
+# 4. Name it "portfolio"
+# 5. Leave it public
+# 6. Don't initialize with any files
+# 7. Click "Create repository"
+
+# Link and push to GitHub
+git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+git branch -M main
+git push -u origin main
